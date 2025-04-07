@@ -1,0 +1,137 @@
+body {
+  background: linear-gradient(
+    120deg,
+    red,
+    aqua,
+    chartreuse,
+    orange,
+    violet,
+    white
+  );
+}
+.heading1 h1 {
+  text-align: center;
+  background: linear-gradient(90deg, aqua, violet, chartreuse);
+  border: 0.7px solid black;
+  transition: 0.7s;
+  color: rgba(0, 0, 0, 0.7);
+}
+.heading1 h1:hover {
+  font-size: 44px;
+  border-radius: 30px;
+  transition: 0.5s;
+  color: black !important;
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 255, 255, 0.7),
+    rgba(238, 130, 238, 0.7),
+    rgba(127, 255, 0, 0.7)
+  );
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.bag {
+  text-align: center;
+  margin-top: 90px;
+}
+.bag img {
+  border: 2px solid black;
+  box-shadow: 3px 4px 30px;
+  box-shadow: black;
+  transition: all 0.5s;
+}
+.bag img:hover {
+  box-shadow: 6px 8px 40px rgba(0, 0, 0, 0.8);
+}
+.bag p {
+  font-size: 31px;
+
+  background: rgba(255, 255, 255, 0.09);
+}
+.button button {
+  margin-bottom: 70px;
+  background: linear-gradient(320deg, aqua, chartreuse);
+  border-radius: 40px;
+  font-size: 27px;
+  transition: all 0.8s;
+}
+.button button:hover {
+  transition: all 0.5s;
+  font-size: 34px;
+  border-radius: 34px;
+  background: linear-gradient(320deg, red, chartreuse, aqua, aqua);
+  font-family: cursive;
+  font-weight: bold;
+}
+.button {
+  margin-bottom: 80px;
+  text-align: left;
+}
+
+/* TV Section Styles */
+.tv {
+  text-align: center;
+  margin-top: 90px;
+}
+.tv img {
+  border: 2px solid black;
+  box-shadow: 3px 4px 30px;
+  box-shadow: black;
+  transition: all 0.5s;
+}
+.tv img:hover {
+  box-shadow: 6px 8px 40px rgba(0, 0, 0, 0.8);
+}
+.tv p {
+  font-size: 31px;
+  background: rgba(255, 255, 255, 0.09);
+}
+.tv .button button {
+  margin-bottom: 70px;
+  background: linear-gradient(320deg, violet, orange);
+  border-radius: 40px;
+  font-size: 27px;
+  transition: all 0.8s;
+}
+.tv .button button:hover {
+  transition: all 0.5s;
+  font-size: 34px;
+  border-radius: 34px;
+  background: linear-gradient(320deg, red, orange, violet, aqua);
+  font-family: cursive;
+  font-weight: bold;
+}
+
+/* Chair Section Styles */
+.chair {
+  text-align: center;
+  margin-top: 90px;
+}
+.chair img {
+  border: 2px solid black;
+  box-shadow: 3px 4px 30px;
+  box-shadow: black;
+  transition: all 0.5s;
+}
+.chair img:hover {
+  box-shadow: 6px 8px 40px rgba(0, 0, 0, 0.8);
+}
+.chair p {
+  font-size: 31px;
+  background: rgba(255, 255, 255, 0.09);
+}
+.chair .button button {
+  margin-bottom: 70px;
+  background: linear-gradient(320deg, chartreuse, red);
+  border-radius: 40px;
+  font-size: 27px;
+  transition: all 0.8s;
+}
+.chair .button button:hover {
+  transition: all 0.5s;
+  font-size: 34px;
+  border-radius: 34px;
+  background: linear-gradient(320deg, orange, red, chartreuse, aqua);
+  font-family: cursive;
+  font-weight: bold;
+}
