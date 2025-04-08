@@ -1,0 +1,141 @@
+
+body {
+  background: linear-gradient(
+    120deg,
+   black,blue,rgba(255,255,255,0.3)
+  );
+}
+
+.heading1 h1 {
+  text-align: center;
+  background:rgba(255,255,255,0.15);
+  border: 0.7px solid rgb(21, 17, 17);
+  transition: 0.7s;
+  color: rgba(0, 0, 0, 0.7);
+}
+.heading1 h1:hover {
+  font-size: 44px;
+  border-radius: 30px;
+  transition: 0.5s;
+  color: black !important;
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+   rgba(255,255,255,0.06)
+  );
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.bag {
+  text-align: center;
+  margin-top: 90px;
+}
+.bag img {
+  border: 2px;
+  box-shadow: 3px 4px 16px rgba(255,255,255,0.3);
+  border-radius: 13px !important ;
+  
+  transition: all 0.5s;
+  width: 320px;
+}
+.bag img:hover {
+  box-shadow: 6px 8px 40px rgba(0, 0, 0, 0.8);
+}
+.bag p {
+  font-size: 31px;
+  border-radius:3.4px;
+
+  background: rgba(255, 255, 255, 0.09);
+}
+.button button {
+  margin-bottom: 70px;
+  background: linear-gradient(120deg,black,blue);
+  border-radius: 40px;
+  font-size: 27px;
+  transition: all 0.8s;
+}
+.button button:hover {
+  transition: all 0.5s;
+  font-size: 34px;
+  border-radius: 34px;
+  background: linear-gradient(120deg,blue,black );
+  transform: scale(1.02);
+}
+.button {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+/* TV Section Styles */
+.tv {
+  text-align: center;
+  margin-top: 90px;
+}
+.tv img {
+ 
+  box-shadow: 3px 4px 16px rgba(255,255,255,0.3) ;
+  border-radius: 13px !important ;
+  
+  transition: all 0.5s;
+  transition: box-shadow 0.3s ;
+  width: 320px;
+}
+.tv img:hover {
+  box-shadow: 6px 8px 40px rgba(0, 0, 0, 0.8);
+}
+.tv p {
+  font-size: 31px;
+  background: rgba(255, 255, 255, 0.09);
+  border-radius:3.4px;
+}
+.tv .button button {
+  margin-bottom: 70px;
+  background: linear-gradient(120deg,black,blue);
+  border-radius: 40px;
+  font-size: 27px;
+  transition: all 0.8s;
+}
+.tv .button button:hover {
+  transition: all 0.5s;
+  font-size: 34px;
+  border-radius: 34px;
+  background: linear-gradient(120deg,blue,black );
+ transform:scale(1.02);
+ transform:scale(1.02);
+}
+
+/* Chair Section Styles */
+.chair {
+  text-align: center;
+  margin-top: 90px;
+}
+.chair img {
+  
+  box-shadow: 3px 4px 36px rgba(255,255,255,0.7) ;
+  border-radius: 13px !important ;
+ 
+  transition: all 0.5s;
+  width: 320px;
+}
+.chair img:hover {
+  box-shadow: 6px 8px 90px rgba(0, 0, 0, 1);
+}
+.chair p {
+  font-size: 31px;
+  border-radius:3.4px;
+  background: rgba(255, 255, 255, 0.09);
+}
+.chair .button button {
+  margin-bottom: 70px;
+  background: linear-gradient(120deg,black,blue);
+  border-radius: 40px;
+  font-size: 27px;
+  transition: all 0.8s;
+}
+.chair .button button:hover {
+  transition: all 0.5s;
+  font-size: 34px;
+  border-radius: 34px;
+  background: linear-gradient(120deg,blue,black );
+ transform:scale(1.02);
+ trasnform:scale(1.02);
+}
