@@ -1,18 +1,15 @@
+
 body {
   background: linear-gradient(
     120deg,
-    red,
-    aqua,
-    chartreuse,
-    orange,
-    violet,
-    white
+   black,blue,rgba(255,255,255,0.3)
   );
 }
+
 .heading1 h1 {
   text-align: center;
-  background: linear-gradient(90deg, aqua, violet, chartreuse);
-  border: 0.7px solid black;
+  background:rgba(255,255,255,0.15);
+  border: 0.7px solid rgb(21, 17, 17);
   transition: 0.7s;
   color: rgba(0, 0, 0, 0.7);
 }
@@ -24,9 +21,7 @@ body {
   font-weight: bold;
   background: linear-gradient(
     90deg,
-    rgba(0, 255, 255, 0.7),
-    rgba(238, 130, 238, 0.7),
-    rgba(127, 255, 0, 0.7)
+   rgba(255,255,255,0.06)
   );
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
@@ -35,22 +30,25 @@ body {
   margin-top: 90px;
 }
 .bag img {
-  border: 2px solid black;
-  box-shadow: 3px 4px 30px;
-  box-shadow: black;
+  border: 2px;
+  box-shadow: 3px 4px 16px rgba(255,255,255,0.3);
+  border-radius: 13px !important ;
+  
   transition: all 0.5s;
+  width: 320px;
 }
 .bag img:hover {
   box-shadow: 6px 8px 40px rgba(0, 0, 0, 0.8);
 }
 .bag p {
   font-size: 31px;
+  border-radius:3.4px;
 
   background: rgba(255, 255, 255, 0.09);
 }
 .button button {
   margin-bottom: 70px;
-  background: linear-gradient(320deg, aqua, chartreuse);
+  background: linear-gradient(120deg,black,blue);
   border-radius: 40px;
   font-size: 27px;
   transition: all 0.8s;
@@ -59,13 +57,12 @@ body {
   transition: all 0.5s;
   font-size: 34px;
   border-radius: 34px;
-  background: linear-gradient(320deg, red, chartreuse, aqua, aqua);
-  font-family: cursive;
-  font-weight: bold;
+  background: linear-gradient(120deg,blue,black );
+  transform: scale(1.02);
 }
 .button {
   margin-bottom: 80px;
-  text-align: left;
+  text-align: center;
 }
 
 /* TV Section Styles */
@@ -74,10 +71,13 @@ body {
   margin-top: 90px;
 }
 .tv img {
-  border: 2px solid black;
-  box-shadow: 3px 4px 30px;
-  box-shadow: black;
+ 
+  box-shadow: 3px 4px 16px rgba(255,255,255,0.3) ;
+  border-radius: 13px !important ;
+  
   transition: all 0.5s;
+  transition: box-shadow 0.3s ;
+  width: 320px;
 }
 .tv img:hover {
   box-shadow: 6px 8px 40px rgba(0, 0, 0, 0.8);
@@ -85,10 +85,11 @@ body {
 .tv p {
   font-size: 31px;
   background: rgba(255, 255, 255, 0.09);
+  border-radius:3.4px;
 }
 .tv .button button {
   margin-bottom: 70px;
-  background: linear-gradient(320deg, violet, orange);
+  background: linear-gradient(120deg,black,blue);
   border-radius: 40px;
   font-size: 27px;
   transition: all 0.8s;
@@ -97,9 +98,9 @@ body {
   transition: all 0.5s;
   font-size: 34px;
   border-radius: 34px;
-  background: linear-gradient(320deg, red, orange, violet, aqua);
-  font-family: cursive;
-  font-weight: bold;
+  background: linear-gradient(120deg,blue,black );
+ transform:scale(1.02);
+ transform:scale(1.02);
 }
 
 /* Chair Section Styles */
@@ -108,21 +109,24 @@ body {
   margin-top: 90px;
 }
 .chair img {
-  border: 2px solid black;
-  box-shadow: 3px 4px 30px;
-  box-shadow: black;
+  
+  box-shadow: 3px 4px 36px rgba(255,255,255,0.7) ;
+  border-radius: 13px !important ;
+ 
   transition: all 0.5s;
+  width: 320px;
 }
 .chair img:hover {
-  box-shadow: 6px 8px 40px rgba(0, 0, 0, 0.8);
+  box-shadow: 6px 8px 90px rgba(0, 0, 0, 1);
 }
 .chair p {
   font-size: 31px;
+  border-radius:3.4px;
   background: rgba(255, 255, 255, 0.09);
 }
 .chair .button button {
   margin-bottom: 70px;
-  background: linear-gradient(320deg, chartreuse, red);
+  background: linear-gradient(120deg,black,blue);
   border-radius: 40px;
   font-size: 27px;
   transition: all 0.8s;
@@ -131,7 +135,7 @@ body {
   transition: all 0.5s;
   font-size: 34px;
   border-radius: 34px;
-  background: linear-gradient(320deg, orange, red, chartreuse, aqua);
-  font-family: cursive;
-  font-weight: bold;
+  background: linear-gradient(120deg,blue,black );
+ transform:scale(1.02);
+ trasnform:scale(1.02);
 }
